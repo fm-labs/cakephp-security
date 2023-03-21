@@ -35,7 +35,7 @@ return [
                     'group' => 'Security.General',
                     'type' => 'boolean',
                     'label' => __d('admin', 'Enable Security'),
-                    'help' => __d('admin', 'Enable or disable all security featured provided by this plugin'),
+                    'help' => __d('admin', 'Enable or disable all security features provided by this plugin'),
                     'default' => false,
                 ],
 
