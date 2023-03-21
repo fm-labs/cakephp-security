@@ -1,5 +1,5 @@
 {
-    "name": "your-name-here/security",
+    "name": "fm-labs/cakephp-security",
     "description": "Security plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
@@ -9,6 +9,9 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5 || ^9.3"
+    },
+    "suggest": {
+        "paragonie/csp-builder": "Content security policy builder"
     },
     "autoload": {
         "psr-4": {
